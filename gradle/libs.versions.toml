@@ -1,0 +1,17 @@
+[versions]
+agp = "8.0.2"
+#noinspection GradleDependency
+ezXHelper = "1.0.3"
+xposed = "82"
+kotlin = "1.9.0"
+
+[libraries]
+ezXHelper = { module = "com.github.kyuubiran:EzXHelper", version.ref = "ezXHelper" }
+xposed-api = { module = "de.robv.android.xposed:api", version.ref = "xposed" }
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+
+[bundles]
+
