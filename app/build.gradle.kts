@@ -12,8 +12,8 @@ android {
         applicationId = "io.github.duzhaokun123.tasklabelastasktitle"
         minSdk = 26
         targetSdk = 33
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -43,4 +43,6 @@ android {
 dependencies {
     compileOnly(libs.xposed.api)
     implementation(libs.ezXHelper)
+    compileOnly(project(":android-stub"))
+    compileOnly(libs.stub)
 }

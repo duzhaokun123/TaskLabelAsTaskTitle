@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "TaskLabelAsTaskTitle"
 include(":app")
+include(":android-stub")

@@ -2,11 +2,13 @@
 agp = "8.0.2"
 #noinspection GradleDependency
 ezXHelper = "1.0.3"
+stub = "4.2.0"
 xposed = "82"
 kotlin = "1.9.0"
 
 [libraries]
 ezXHelper = { module = "com.github.kyuubiran:EzXHelper", version.ref = "ezXHelper" }
+stub = { module = "dev.rikka.hidden:stub", version.ref = "stub" }
 xposed-api = { module = "de.robv.android.xposed:api", version.ref = "xposed" }
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

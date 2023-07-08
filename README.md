@@ -9,8 +9,6 @@ use `taskDescription.label` as task title in recent task list
 
 like for `Chrome Custom Tabs` and `Alipay Mini Program`, the task title is the page title, not the app name
 
-for WeChat, it did not `setTaskDescription` with `label`, so it will not work
-
 | before                      | after                     |
 |-----------------------------|---------------------------|
 | ![before](arts/before1.png) | ![after](arts/after1.png) |
